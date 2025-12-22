@@ -17,7 +17,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-          token: ${{ secrets.LIVELIST }}
+          token: ${{ secrets.99dn235 }}
 
     - name: GetTime
       run: echo "DATE=$(date +'%Y-%m-%d %H:%M:%S CST')" >> $GITHUB_ENV
